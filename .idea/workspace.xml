@@ -5,45 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f236c934-7908-4998-9e7f-5b17a351940f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamroyatra/controller/CustomErrorController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/Lumbini.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/mustangimg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/raghav.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/resunga-tour.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/team-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/team-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/error/general.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/hamroyatra/controller/CustomErrorController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/images/Lumbini.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/images/mustangimg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/images/raghav.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/images/resunga-tour.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/images/team-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/images/team-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/templates/error/general.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cfcd3256-c723-4126-8e62-f64d9f0ed2a8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/cfcd3256-c723-4126-8e62-f64d9f0ed2a8.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hamroyatra/config/DatabaseInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hamroyatra/config/DatabaseInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hamroyatra/config/DatabaseMigrationHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hamroyatra/config/DatabaseMigrationHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hamroyatra/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hamroyatra/controller/AdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hamroyatra/controller/DashboardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hamroyatra/controller/DashboardController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hamroyatra/model/Booking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hamroyatra/model/Booking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hamroyatra/service/BookingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hamroyatra/service/BookingService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hamroyatra/service/DestinationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hamroyatra/service/DestinationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/bookings/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/bookings/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/bookings/view.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/bookings/view.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/destinations/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/destinations/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fragments/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hamroyatra/config/DatabaseInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hamroyatra/config/DatabaseInitializer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hamroyatra/controller/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hamroyatra/controller/AdminController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hamroyatra/service/DestinationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hamroyatra/service/DestinationService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/bookings/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/bookings/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/bookings/view.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/bookings/view.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/destinations/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/destinations/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/fragments/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/fragments/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
