@@ -4,6 +4,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Component;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 96ed910 (Initial commit or update project)
 import java.util.logging.Logger;
 
 @Component
@@ -28,6 +32,7 @@ public class DatabaseInitializer implements CommandLineRunner {
                         Integer.class
                 );
                 columnExists = (count != null && count > 0);
+<<<<<<< HEAD
             } catch (Exception e) {
                 columnExists = false;
             }
@@ -43,6 +48,23 @@ public class DatabaseInitializer implements CommandLineRunner {
 
         } catch (Exception e) {
             logger.severe("Error initializing database: " + e.getMessage());
+=======
+
+                // Add the column if it doesn't exist
+                if (!columnExists) {
+                    logger.info("Adding special_requirements column to bookings table");
+                    jdbcTemplate.execute("ALTER TABLE bookings ADD COLUMN special_requirements TEXT");
+                    logger.info("Column added successfully");
+                } else {
+                    logger.info("special_requirements column already exists");
+                }
+
+            } catch (Exception e) {
+                logger.severe("Error initializing database: " + e.getMessage());
+            }
+        } catch (Exception e) {
+            logger.severe("Error during database initialization: " + e.getMessage());
+>>>>>>> 96ed910 (Initial commit or update project)
         }
     }
 }
